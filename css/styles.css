@@ -1,13 +1,12 @@
 /* Color Palette
-tangerine-dream: #ff9861ff; (warm orange) - Accent color
-dry-sage: #bdcc9bff; (soft green) - Section backgrounds
+tangerine dream: #ff9861ff; (warm orange) - Accent color
+dry sage: #bdcc9bff; (soft green) - Section backgrounds
 aquamarine: #7affd5ff; (mint green) - Header/Footer backgrounds
-pale-slate: #bdb0b4ff; (soft mauve) - Body background
-rose-kiss: #ff6193ff; (pink) - Secondary accent
+pale slate: #bdb0b4ff; (soft mauve) - Body background
+rose kiss: #ff6193ff; (pink) - Secondary accent
 */
 
-/* Global styles 
-------------------------------------*/
+/* Global styles */
 html {
   box-sizing: border-box;
 }
@@ -76,8 +75,7 @@ h3 {
   min-height: 225px;
 }
 
-/* Header & Footer 
-------------------------------------*/
+/* Header & Footer */
 header {
   background-color: #7affd5ff; /* aquamarine */
   color: #2c3e50;
@@ -103,11 +101,12 @@ header p {
 
 header img {
   border-radius: 50%; /* This creates circle */
-  width: 300px;
-  height: 300px; /* height equal to width for perfect circle */
-  object-fit: cover; /* This ensures the image covers the area without stretching insanely */
+
+  /* width: 300px;
+  height: 300px; /* height equal to width for perfect circle 
+  object-fit: cover; /* This ensures the image covers the area without stretching insanely 
   float: left;
-  margin-right: 30px;
+  margin-right: 30px ; fixed in html file w column ; */
   border: 5px solid #ff6193ff; /* rose kiss border */
 }
 
@@ -144,8 +143,7 @@ footer h2 {
   color: #ff6193ff; /* rose kiss on hover */
 }
 
-/* Work Experience
-------------------------------------*/
+/* Work Experience */
 .work-section {
   background-color: #bdcc9bff; /* dry sage */
   padding: 20px 0;
@@ -190,8 +188,7 @@ footer h2 {
   margin-top: 15px;
 }
 
-/* Education
-------------------------------------*/
+/* Education */
 .education-section {
   background-color: #ff9861ff; /* tangerine dream */
   color: #2c3e50;
